@@ -1,0 +1,141 @@
+/*
+--- Adjustments to Wrapper ---
+*/
+#wrapper.cp-wrapper{
+    width: unset;
+    max-width: unset;
+    height: 100%;
+}
+
+/*
+--- Adjustments to Main Objects ---
+*/
+body{
+  height: 100%;
+}
+
+html{
+  height: 100%;
+}
+
+/*
+--- Adjustments to Navigation Pane ---
+*/
+.cp-wrapper .left-pnl {
+    height: 100%;
+    float: left;
+    width: 180px;
+    position: fixed;
+}
+
+/* 
+--- Adjustments to Content Pane ---
+*/
+.cp-wrapper .right-pnl {
+    margin: unset;
+    margin-left: 180px;
+    width: 90%;
+	float: left;
+    position: unset;
+}
+
+/* 
+--- Adjustments to Firewall and NAT Rules Page ---
+*/
+.firewallRuleAddEditForm hr.seperationLine {
+    width: 80%;
+    float: left;
+    margin: unset;
+}
+
+.cp-wrapper .cp-sec {
+    width: 80%;
+    float: left;
+}
+
+.cp-wrapper .sophos-ruleNav-one {
+    left: unset;
+    max-width: unset;
+    min-width: unset;
+    width: 15%;
+    display: inline-block;
+}
+
+/* 
+--- Adjustments to Navigation Bar ---
+*/
+.cp-wrapper nav.tabs-nav{
+  max-width: unset;
+}
+
+.cp-wrapper #topbar {
+	width: 85%;
+}
+
+/* Readjust Save Field */
+.cp-wrapper .footer-btn-pnl {
+	padding: 8px 200px;
+}
+
+/* 
+--- Re-size Text Fields ---
+ */
+.CNS-multi-selector-div{
+  width: 100%;
+}
+
+#description{
+  width: 100%;
+}
+
+#rulename{
+  width: 100%;
+}
+
+#originalSource {
+	width: 100%;
+}
+
+#originalDestination {
+	width: 100%;
+}
+
+#originalService {
+	width: 100%;
+}
+
+#inboundInterface {
+	width: 100%;
+}
+
+#outboundInterface {
+	width: 100%;
+}
+
+#name {
+	width: 100%;
+}
+
+/* 
+--- Overflow on Aliases ---
+*/
+.CNS-multi-selector-div .CNS-multi-selector-selected-list > li > span {
+  width: unset;
+}
+
+/* 
+-- Adjustment for Drop Down Boxes ---
+This fix could use some further adjustment so it's disabled for now
+*/
+
+/*
+
+.firewallRuleAddEditForm .CNS-single-selector-div > div > span, #NATEdit .CNS-single-selector-div > div > span{
+  padding-left: 2%;
+  width: 87.5%;
+}
+
+.firewallRuleAddEditForm .CNS-single-selector-div > div > i, #NATEdit .CNS-single-selector-div > div > i{
+  width: 10%;
+}
+*/
